@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "company": "IronMan Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "2",
+    "company": "IronMan Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "3",
+    "company": "IronMan Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "4",
+    "company": "Captain America Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "5",
+    "company": "Captain America Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "6",
+    "company": "Captain America Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "7",
+    "company": "Thor Disco Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "8",
+    "company": "Thor Disco Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "9",
+    "company": "Thor Disco Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "10",
+    "company": "Thor Disco Club",
+    "type": "round_table",
+    "size": "5"
+  },
+  {
+    "id": "11",
+    "company": "IronMan Club",
+    "type": "sofa",
+    "size": "8"
+  },
+  {
+    "id": "12",
+    "company": "Captain America Club",
+    "type": "sofa",
+    "size": "8"
+  },
+  {
+    "id": "13",
+    "company": "Captain America Club",
+    "type": "sofa",
+    "size": "8"
+  },
+  {
+    "id": "14",
+    "company": "Thor Disco Club",
+    "type": "sofa",
+    "size": "8"
+  }
+]

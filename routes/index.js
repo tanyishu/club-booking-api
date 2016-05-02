@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var users = require('../data/users.json')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -11,7 +12,11 @@ router.get('/login', function(req, res, next) {
 });
 
 router.post('/login', function(req, res, next) {
-  if (req.body.username === 'yishu' && req.body.password === 'password') {
+  var user = users.find(function (user) {
+    return (user.username === req.body.username && user.password === req.body.password)
+  })
+  console.log(user);
+  if (user) {
     res.redirect('/')
   } else {
     res.redirect('/login')
