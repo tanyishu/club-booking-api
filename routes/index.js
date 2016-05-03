@@ -16,7 +16,7 @@ router.post('/login', function(req, res, next) {
     return (user.username === req.body.username && user.password === req.body.password)
   })
   console.log(user);
-  if (user) {
+  if (user.length !== 0) {
     res.redirect('/')
   } else {
     res.redirect('/login')
