@@ -1,14 +1,17 @@
 [
 	{
-		"company": "IronMan Club",
+    "id": "1",
+		"company": "Lannister Club",
 		"address": "P.O. Box 810, 4097 Ipsum Ave"
 	},
 	{
-		"company": "Captain America Club",
+    "id": "2",
+		"company": "Stark Club",
 		"address": "Ap #710-5866 Donec St."
 	},
 	{
-		"company": "Thor Disco Club",
+    "id": "3",
+		"company": "Targaryen Club",
 		"address": "P.O. Box 741, 664 Arcu. Rd."
   }
 ]
