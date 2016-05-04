@@ -4,7 +4,8 @@ var mongoose = require('mongoose');
 var reservationSchema = mongoose.Schema({
   name: String,
   contact_number: Number,
-  pax: Number
+  pax: Number,
+  club: String
 });
 
 // Return Model

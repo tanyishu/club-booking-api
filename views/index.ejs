@@ -1,171 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>booker T</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <style>
 
-  </style>
+<head>
+    <title>booker T</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+
+    </style>
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand"><span class="glyphicon glyphicon-bitcoin">ooker T</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a class="login" href="/login">LOGIN</a><li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CLUBS
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-bitcoin">ooker T</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#myPage">HOME</a></li>
+                    <li><a class="login" href="/login">LOGIN</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">CLUBS
           <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-menu-link" href="/api/clubs">Lannister Club</a></li>
-            <li><a class="dropdown-menu-link" href="/api/clubs">Stark CLub</a></li>
-            <li><a class="dropdown-menu-link" href="/api/clubs">Targeryen Club</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-menu-link" href="/api/clubs">Lannister Club</a></li>
+                            <li><a class="dropdown-menu-link" href="/api/clubs">Stark CLub</a></li>
+                            <li><a class="dropdown-menu-link" href="/api/clubs">Targeryen Club</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<body>
-<!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
-  <div class="container">
-    <h3 class="text-center">Reserve Table</h3>
-    <p class="text-center">Empower Your Guestlist, Own Your Party.</p>
+        <!-- Container (TOUR Section) -->
+        <div id="tour" class="bg-1">
+            <div class="container">
+                <h3 class="text-center">Reserve Table</h3>
+                <p class="text-center">Empower Your Guestlist, Own Your Party.</p>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="/images/lannister.jpg" width="400" height="300">
+                            <p><strong>Lannister Club</strong></p>
+                            <p>Friday 27 November 2015</p>
+                            <button class="btn" data-toggle="modal" data-target="#myModal" data-club="lannister">Reserve</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="/images/stark.jpg" width="400" height="300">
+                            <p><strong>Stark Club</strong></p>
+                            <p>Saturday 28 November 2015</p>
+                            <button class="btn" data-toggle="modal" data-target="#myModal" data-club="stark">Reserve</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="/images/targaryen.jpg" width="400" height="300">
+                            <p><strong>Targaryen Club</strong></p>
+                            <p>Sunday 29 November 2015</p>
+                            <button class="btn" data-toggle="modal" data-target="#myModal" data-club="targaryen">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
 
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="/images/lannister.jpg" width="400" height="300">
-          <p><strong>Lannister Club</strong></p>
-          <p>Friday 27 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal" data-club="lannister">Reserve</button>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4><span class="glyphicon glyphicon-bitcoin"></span>ooker T Reservation</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" action="/submit" method="POST">
+                        <div class="form-group">
+                            <label for="name"><span class="glyphicon glyphicon-user"></span> Enter Your Name</label>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Name Will Be Use For Verification">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number"><span class="glyphicon glyphicon-phone"></span> Enter Your Contact Number</label>
+                            <input name="contact_number" type="text" class="form-control" id="contact-number" placeholder="Contact Number Will Be Use For Verification">
+                        </div>
+                        <div class="form-group">
+                            <label for="pax"> Number Of Pax</label>
+                            <input name="pax" type="number" class="form-control" id="pax" placeholder="2">
+                        </div>
+                        <button type="submit" class="btn btn-block">Book
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="/images/stark.jpg" width="400" height="300">
-          <p><strong>Stark Club</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal" data-club="stark">Reserve</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="/images/targaryen.jpg" width="400" height="300">
-          <p><strong>Targaryen Club</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal" data-club="targaryen">Reserve</button>
-        </div>
-      </div>
     </div>
-  </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <h3 class="text-center">Contact</h3>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>Like My Work? Contact Me!</p>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/TanYiShu"> https://www.facebook.com/TanYiShu</a>
+                <br>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/tanyishu"> https://www.linkedin.com/in/tanyishu</a>
+                <br>
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:kaobei_lah@hotmail.com"> kaobei_lah@hotmail.com</a>
+            </div>
+        </div>
+        <br>
+        <p>Disclaimer: All images and their registered trademarks belongs to their respective owner/creator.</p>
+      </div>
+
+        <script>
+            $(document).ready(function() {
+              console.log("js running");
+              $("#clubInput").hide()
+                // Initialize Tooltip
+                $('[data-toggle="tooltip"]').tooltip();
+
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a:not(.login):not(.dropdown-menu-link):not(.navbar-brand), footer a[href='#myPage']").on('click', function(event) {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function() {
+                        window.location.hash = hash;
+                    });
+                });
+
+                var club = null
+                $('button[data-target="#myModal"]').on('click', function() {
+                    club = $(this)[0].dataset.club;
+                })
+
+                $('#myModal').on('shown.bs.modal', function() {
+                    $('#full-name').focus()
+                    console.log(club)
+                    $('<input>').attr({
+                        type: 'hidden',
+                        value: club,
+                        name: "club"
+                    }).appendTo('form');
+                })
+            })
+        </script>
+
 </body>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-bitcoin"></span>ooker T Reservation</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form" action="" method="post">
-            <div class="form-group">
-              <label for="full-name"><span class="glyphicon glyphicon-user"></span> Enter Your Name</label>
-              <input type="text" class="form-control" id="full-name" placeholder="Name Will Be Use For Verification">
-            </div>
-            <div class="form-group">
-              <label for="contact-number"><span class="glyphicon glyphicon-phone"></span> Enter Your Contact Number</label>
-              <input type="text" class="form-control" id="contact-number" placeholder="Contact Number Will Be Use For Verification">
-            </div>
-            <div class="form-group">
-              <label for="pax"> Number Of Pax</label>
-              <input type="number" class="form-control" id="pax" placeholder="2">
-            </div>
-              <button type="submit" class="btn btn-block">Book
-                <span class="glyphicon glyphicon-ok"></span>
-              </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span>Cancel
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-
-  <div class="row">
-    <div class="col-md-4">
-      <p>Like My Work? Contact Me!</p>
-      <i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/TanYiShu"> https://www.facebook.com/TanYiShu</a><br>
-      <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/tanyishu"> https://www.linkedin.com/in/tanyishu</a><br>
-      <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:kaobei_lah@hotmail.com"> kaobei_lah@hotmail.com</a>
-    </div>
-  </div>
-  <br>
-  <p>Disclaimer: All images and their registered trademarks belongs to their respective owner/creator.</p>
-
-
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip();
-
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a:not(.login):not(.dropdown-menu-link), footer a[href='#myPage']").on('click', function(event) {
-    event.preventDefault();
-    var hash = this.hash;
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 1000, function(){
-      window.location.hash = hash;
-    });
-  });
-
-  var club = null
-  $('button[data-target="#myModal"]').on('click', function () {
-    club = $(this)[0].dataset.club;
-  })
-
-  $('#myModal').on('shown.bs.modal', function () {
-    $('#full-name').focus()
-    console.log(club)
-    $('<input>').attr({
-      type: 'hidden',
-      value: club
-    }).appendTo('form');
-  })
-})
-</script>
-
-</body>
 </html>
