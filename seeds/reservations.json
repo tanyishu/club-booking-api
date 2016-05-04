@@ -1,0 +1,12 @@
+[
+  {
+    "name": "yishu",
+    "contact_number": 87654321,
+    "pax": 2
+  },
+  {
+    "name": "jesstern",
+    "contact_number": 12345678,
+    "pax": 8
+  }
+]

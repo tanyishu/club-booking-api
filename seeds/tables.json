@@ -1,0 +1,86 @@
+[
+  {
+    "company": "Lannister Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Lannister Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Lannister Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Stark Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Stark Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Stark Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Targaryen Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Targaryen Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Targaryen Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Targaryen Club",
+    "type": "round_table",
+    "size": "5",
+    "status": "true"
+  },
+  {
+    "company": "Lannister Club",
+    "type": "sofa",
+    "size": "8",
+    "status": "true"
+  },
+  {
+    "company": "Stark Club",
+    "type": "sofa",
+    "size": "8",
+    "status": "true"
+  },
+  {
+    "company": "Stark Club",
+    "type": "sofa",
+    "size": "8",
+    "status": "true"
+  },
+  {
+    "company": "Targaryen Club",
+    "type": "sofa",
+    "size": "8",
+    "status": "true"
+  }
+]

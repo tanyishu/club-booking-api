@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+var mongoose = require('mongoose');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -56,5 +57,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
+// Connection
+app.listen(4000);
+mongoose.connect("mongodb://localhost/bookerT");
+console.log("App running on port 4000");
 
 module.exports = app;
