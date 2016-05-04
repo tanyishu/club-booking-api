@@ -1,86 +1,100 @@
 [
   {
     "id": "1",
-    "company": "IronMan Club",
+    "company": "Lannister Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "2",
-    "company": "IronMan Club",
+    "company": "Lannister Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "3",
-    "company": "IronMan Club",
+    "company": "Lannister Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "4",
-    "company": "Captain America Club",
+    "company": "Stark Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "5",
-    "company": "Captain America Club",
+    "company": "Stark Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "6",
-    "company": "Captain America Club",
+    "company": "Stark Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "7",
-    "company": "Thor Disco Club",
+    "company": "Targaryen Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "8",
-    "company": "Thor Disco Club",
+    "company": "Targaryen Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "9",
-    "company": "Thor Disco Club",
+    "company": "Targaryen Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "10",
-    "company": "Thor Disco Club",
+    "company": "Targaryen Club",
     "type": "round_table",
-    "size": "5"
+    "size": "5",
+    "status": "true"
   },
   {
     "id": "11",
-    "company": "IronMan Club",
+    "company": "Lannister Club",
     "type": "sofa",
-    "size": "8"
+    "size": "8",
+    "status": "true"
   },
   {
     "id": "12",
-    "company": "Captain America Club",
+    "company": "Stark Club",
     "type": "sofa",
-    "size": "8"
+    "size": "8",
+    "status": "true"
   },
   {
     "id": "13",
-    "company": "Captain America Club",
+    "company": "Stark Club",
     "type": "sofa",
-    "size": "8"
+    "size": "8",
+    "status": "true"
   },
   {
     "id": "14",
-    "company": "Thor Disco Club",
+    "company": "Targaryen Club",
     "type": "sofa",
-    "size": "8"
+    "size": "8",
+    "status": "true"
   }
 ]

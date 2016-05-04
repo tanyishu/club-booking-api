@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -24,18 +25,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">booker T</a>
+      <a class="navbar-brand">booker T</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
+        <li><a class="login" href="/login">LOGIN</a><li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">CLUBS
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Lannister Club</a></li>
-            <li><a href="#">Stark CLub</a></li>
-            <li><a href="#">Targeryen Club</a></li>
+            <li><a href="/api/clubs">Lannister Club</a></li>
+            <li><a href="/api/clubs">Stark CLub</a></li>
+            <li><a href="/api/clubs">Targeryen Club</a></li>
           </ul>
         </li>
         <li><a href="#contact">CONTACT</a></li>
@@ -92,12 +94,12 @@
         <div class="modal-body">
           <form role="form">
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-user"></span>How Many Person ?</label>
+              <label for="psw"><span class="glyphicon glyphicon-user"></span> How Many Person ?</label>
               <input type="number" class="form-control" id="psw" placeholder="2">
             </div>
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-envelope"></span>Enter Your Email</label>
-              <input type="text" class="form-control" id="usrname" placeholder="example@email.com">
+              <label for="usrname"><span class="glyphicon glyphicon-earphone"></span> Enter Your Contact Number</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Contact Number Will Be Use For Verification">
             </div>
               <button type="submit" class="btn btn-block">Book
                 <span class="glyphicon glyphicon-ok"></span>
@@ -120,13 +122,13 @@
   <div class="row">
     <div class="col-md-4">
       <p>Like My Work? Contact Me!</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +65 94872733</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: yishutan@gmail.com kaobei_lah@hotmail.com</p>
-      <br>
+      <i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/TanYiShu"> https://www.facebook.com/TanYiShu</a><br>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/tanyishu"> https://www.linkedin.com/in/tanyishu</a><br>
+      <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:kaobei_lah@hotmail.com"> kaobei_lah@hotmail.com</a>
     </div>
   </div>
-  <p>disclaimer: All images belongs to their respective creator/owner</p>
-</script>
+  <br>
+  <p>Disclaimer: All images and their registered trademarks belongs to their respective owner/creator.</p>
 
 
 <script>
@@ -135,7 +137,7 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a:not(.login):not(.dropdown-menu), footer a[href='#myPage']").on('click', function(event) {
 
     // Prevent default anchor click behavior
     event.preventDefault();
@@ -147,12 +149,13 @@ $(document).ready(function(){
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
       scrollTop: $(hash).offset().top
-    }, 900, function(){
+    }, 1000, function(){
 
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
     });
   });
+
 })
 </script>
 
