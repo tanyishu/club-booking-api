@@ -56,8 +56,8 @@ app.use(function(err, req, res, next) {
 });
 
 // Connection
-app.listen(4000);
-mongoose.connect("mongodb://localhost/bookerT");
+app.listen(process.env.PORT || 4000);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/bookerT");
 console.log("App running on port 4000");
 
 module.exports = app;
