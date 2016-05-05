@@ -1,4 +1,4 @@
-var Reservation = require('../models/Reservation');
+var Reservation = require('../models/reservation');
 
 // CREATE NEW LISTING
 function createReservation(request, response) {
